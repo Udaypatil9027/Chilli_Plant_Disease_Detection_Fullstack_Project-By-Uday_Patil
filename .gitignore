@@ -1,9 +1,38 @@
+# Python
 venv/
 .venv/
 __pycache__/
 *.pyc
+
+# React
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+
+# Spring Boot
+target/
+*.class
+
+# IDE
 .idea/
 .vscode/
-.env
+*.iml
+
+# Runtime uploaded files
+uploads/
+
+# Secrets
+*.pem
+*.key
+*.p12
+*.jks
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
